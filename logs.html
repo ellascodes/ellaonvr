@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logs - Ella On Vr</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-*****" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/logo.png" alt="Ella On Vr Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li><a href="#"><i class="fas fa-cogs"></i> Services</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                    <li><a href="logs.html"><i class="fas fa-list"></i> Logs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="logs" data-aos="fade-up">
+            <div class="container">
+                <h2>User Logs</h2>
+                <div id="ip-info" class="ip-info">
+                    <div class="ip-info-card">
+                        <h3>User IP Information</h3>
+                        <div class="ip-details">
+                            <p><i class="fas fa-map-marker-alt"></i> <span id="location">Loading...</span></p>
+                            <p><i class="fas fa-network-wired"></i> <span id="ip">Loading...</span></p>
+                            <p><i class="fas fa-building"></i> <span id="organization">Loading...</span></p>
+                            <p><i class="fas fa-clock"></i> <span id="timezone">Loading...</span></p>
+                        </div>
+                    </div>
+                    <button id="showIpInfoBtn" class="cta-button">Show IP Information</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ella On Vr. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

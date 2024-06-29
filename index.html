@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link para FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-MUy4iFt8FHTFlvnLqVXJ7FS1GMv5BZTzTbUR6ZBYlL8Ez17nC2CmFMy3JU4NfSbFR8P2I8Dp1HzH9MxM3gplEg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <img src="assets/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#photos" class="nav-link"><i class="fas fa-camera"></i> Photos</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="#" id="services-link" class="nav-link"><i class="fas fa-cogs"></i> Services</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to Your Portfolio</h1>
+            <p>Your journey to success starts here.</p>
+            <a href="#" class="cta-button">Explore More</a>
+        </div>
+    </section>
+
+    <section id="photos" class="photos">
+        <div class="container">
+            <h2>Photos <i class="fas fa-camera-retro"></i></h2>
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <div class="photo-frame">
+                        <img src="assets/foto1.png" alt="Photo 1" class="photo-img">
+                    </div>
+                    <p>Descrição da foto 1</p>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-frame">
+                        <img src="assets/foto2.png" alt="Photo 2" class="photo-img">
+                    </div>
+                    <p>Descrição da foto 2</p>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-frame">
+                        <img src="assets/foto3.png" alt="Photo 3" class="photo-img">
+                    </div>
+                    <p>Descrição da foto 3</p>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-frame">
+                        <img src="assets/foto4.png" alt="Photo 4" class="photo-img">
+                    </div>
+                    <p>Descrição da foto 4</p>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-frame">
+                        <img src="assets/foto5.png" alt="Photo 5" class="photo-img">
+                    </div>
+                    <p>Descrição da foto 5</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Your Portfolio. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Popup de login -->
+<div id="login-popup" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
